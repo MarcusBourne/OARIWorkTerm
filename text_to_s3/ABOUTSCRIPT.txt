@@ -1,3 +1,5 @@
 this script will automatically upload text documents into every drillcore folder in the s3.
 
+creds.txt is you AWS info in the format "accesskey, secret key"
+to change file destination update handlers "BUCKET_NAME" and "BASE_PREFIX"
 to change the file being uploaded edit "DEST_FILENAME" in code
