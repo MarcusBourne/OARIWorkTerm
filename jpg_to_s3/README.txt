@@ -1,3 +1,5 @@
 this script will automatically upload .jpg documents into every drillcore folder in the s3.
 
-to change the file being uploaded edit "DEST_FILENAME" in code
+LOCAL_BASE_DIR is where the jpgs to be uploaded are located on your drive
+creds.txt is you AWS info in the format "accesskey, secret key"
+to change file destination update handlers "BUCKET_NAME" and "S3_BASE_PREFIX"
